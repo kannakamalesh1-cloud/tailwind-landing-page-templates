@@ -8,6 +8,8 @@
   strategy: base;
 }
 
+@plugin "@tailwindcss/typography";
+
 @theme {
   --font-inter: Inter, sans-serif;
   --font-mono: Roboto Mono, monospace;
